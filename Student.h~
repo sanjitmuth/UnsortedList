@@ -1,0 +1,30 @@
+#ifndef STUDENT_H
+#define STUDENT_H
+#include <string>
+using namespace std;
+
+class Student
+
+{
+public:
+
+    Student(); // constructor
+    
+    ~Student(); // destructor
+
+    int getStudentID(); // getter
+    string getStudentName(); // getter
+    void setStudentID(int); // setter
+    void setStudentName(string); // setter
+
+    bool operator==(const Student& foo) const;
+
+    friend istream& operator>> (istream& is, Student& student);
+    friend std::ostream& operator<< (std::ostream &out, const Student &student);
+
+    int studentID;
+    string studentName;
+
+};
+
+#endif

@@ -1,0 +1,11 @@
+list is empty
+List is not full
+List Items: 81012 Eman 
+list is not empty
+List Items: 81012 Eman 81001 John 
+Item is not in the list
+Item at index 1 is:81001 John
+2
+list is empty
+0
+Unrecognized command
