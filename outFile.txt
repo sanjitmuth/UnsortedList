@@ -1,11 +1,16 @@
 list is empty
 List is not full
-List Items: 81012 Eman 
-list is not empty
-List Items: 81012 Eman 81001 John 
+List Items: 10 
+List Items: 10 2 
 Item is not in the list
-Item at index 1 is:81001 John
-2
+List Items: 2 
+List Items: 
 list is empty
-0
-Unrecognized command
+List Items: 7 90 5 100 3 
+List Items: 7 3 5 100 
+Item at index 0 is:7
+Item at index 3 is:100
+Item at index 5 is:Index is out of range
+List is full, Insertion failed
+List is full
+List Items: 
